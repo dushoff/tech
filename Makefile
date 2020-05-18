@@ -1,4 +1,4 @@
-## This is the screendir …
+## This is the screendir run
 
 current: target
 -include target.mk
@@ -7,13 +7,20 @@ current: target
 
 ######################################################################
 
-Sources += $(wildcard *.pl)
+vim_session: 
+	bash -cl "vmt"
 
-## Guide file
+screen_session:
+	$(MAKE) tilde.rscreen tilde/R.rscreen
+	screen tcsh
+	screen -t sudo sudo su
 
 ######################################################################
 
-### listdir stuff (listdir.mk)
+Ignore += tilde
+tilde: dir=~
+tilde:
+	$(linkdirname)
 
 ######################################################################
 
