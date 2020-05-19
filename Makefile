@@ -11,8 +11,8 @@ vim_session:
 	bash -cl "vmt"
 
 screen_session:
+	$(MAKE) $(vscreens)
 	$(MAKE) tilde.rscreen tilde/R.rscreen
-	screen tcsh
 	screen -t sudo sudo su
 
 ######################################################################
