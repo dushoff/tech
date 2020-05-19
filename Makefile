@@ -10,7 +10,7 @@ current: target
 vim_session: 
 	bash -cl "vmt"
 
-screen_session:
+screen_session: screens_update
 	$(MAKE) $(vscreens)
 	$(MAKE) tilde.rscreen tilde/R.rscreen
 	screen -t sudo sudo su
