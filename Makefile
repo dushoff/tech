@@ -8,7 +8,7 @@ current: target
 ######################################################################
 
 vim_session: 
-	bash -cl "vmt"
+	bash -cl "vmt screens.list"
 
 screen_session: screens_update
 	$(MAKE) $(vscreens)
