@@ -14,6 +14,7 @@ screen_session: screens_update
 	$(MAKE) $(vscreens)
 	$(MAKE) tilde.rscreen tilde/R.rscreen
 	screen -t sudo sudo su
+	screen tcsh
 
 ######################################################################
 
