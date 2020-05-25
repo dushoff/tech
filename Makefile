@@ -15,6 +15,7 @@ screen_session: screens.update
 	$(MAKE) tilde.rscreen tilde/R.rscreen
 	screen -t sudo sudo su
 	screen tcsh
+	$(MAKE) run.rscreen
 
 ######################################################################
 
@@ -22,6 +23,10 @@ Ignore += tilde
 tilde: dir=~
 tilde:
 	$(linkdirname)
+
+Ignore += run
+run:
+	$(mkdir)
 
 ######################################################################
 
