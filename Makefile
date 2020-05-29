@@ -24,7 +24,8 @@ tilde: dir=~
 tilde:
 	$(linkdirname)
 
-Ignore += run
+Ignore += run/*.*
+Source += run/Makefile
 run:
 	$(mkdir)
 
