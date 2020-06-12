@@ -12,7 +12,7 @@ vim_session:
 
 screen_session: screens.update
 	$(MAKE) $(vscreens)
-	$(MAKE) tilde.rscreen tilde/R.rscreen
+	$(MAKE) tilde.rscreen
 	screen -t sudo sudo su
 	screen tcsh
 	$(MAKE) run.rscreen
