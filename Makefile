@@ -10,12 +10,18 @@ current: target
 vim_session: 
 	bash -cl "vmt screens.list"
 
+## None of the seems to work
+tim_session: 
+	bash -cl "vim Makefile target.mk screens.list" &
+	## exec vim Makefile target.mk "screens.list" &
+
 screen_session: screens.update
 	$(MAKE) $(vscreens)
 	$(MAKE) tilde.rscreen
 	screen -t sudo sudo su
 	screen tcsh
 	$(MAKE) run.rscreen
+	bash -cl vanilla
 
 ######################################################################
 
