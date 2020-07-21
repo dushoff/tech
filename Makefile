@@ -21,7 +21,7 @@ screen_session: screens.update
 	screen -t sudo sudo su
 	screen tcsh
 	$(MAKE) run.rscreen
-	bash -cl vanilla
+	screen -t vanilla bash -cl vanilla
 
 ######################################################################
 
