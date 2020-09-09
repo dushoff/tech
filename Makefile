@@ -1,4 +1,5 @@
 ## This is the screendir run
+## vimcleaning
 
 current: target
 -include target.mk
@@ -52,8 +53,6 @@ makestuff/Makefile:
 ### Includes
 
 -include makestuff/os.mk
-
-## -include makestuff/wrapR.mk
 
 -include makestuff/listdir.mk
 -include makestuff/screendir.mk
