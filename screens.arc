@@ -5,4 +5,4 @@ XX. rinst: https://github.com/dushoff/rinst.git
 
 XX. makestuff: https://github.com/dushoff/makestuff.git
 
-XX. makeR: https://github.com/dushoff/makeR.git
+## 4. makeR: https://github.com/dushoff/makeR.git
