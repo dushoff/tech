@@ -32,7 +32,7 @@ tilde:
 	$(linkdirname)
 
 Ignore += run
-Source += run/Makefile
+Sources += run/Makefile
 run:
 	$(mkdir)
 
