@@ -24,6 +24,10 @@ screen_session: screens.update
 	$(MAKE) run.rscreen
 	screen -t vanilla bash -cl vanilla
 
+Dropbox: dir=~
+Dropbox: 
+	$(linkdir)
+
 ######################################################################
 
 Ignore += tilde
