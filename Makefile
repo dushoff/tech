@@ -1,4 +1,4 @@
-## This is the screendir run
+## This is the screendir tech
 ## vimcleaning
 
 current: target
