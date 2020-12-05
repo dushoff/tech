@@ -11,7 +11,7 @@ current: target
 vim_session: 
 	bash -cl "vmt screens.list"
 
-## None of the seems to work
+## None of this seems to work
 tim_session: 
 	bash -cl "vim Makefile target.mk screens.list" &
 	## exec vim Makefile target.mk "screens.list" &
