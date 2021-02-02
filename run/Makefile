@@ -1,6 +1,6 @@
 target: startscreen
 
 startscreen: 
-	bash -cl textdemon
+	bash -cl textstart
 	bash -cl "wiss 0"
 
