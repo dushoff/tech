@@ -11,7 +11,7 @@ XX. dictClean: https://github.com/dushoff/dictClean.git
 
 ----------------------------------------------------------------------
 
-texdev:
+texdev: https://github.com/dushoff/texdeps.git
 
 This was probably wrong; should have installed a .deb instead from the main DIGImend
 DIGImend: https://github.com/Huion-Linux/DIGImend-kernel-drivers-for-Huion.git
