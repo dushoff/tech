@@ -3,6 +3,7 @@
 
 current: target
 -include target.mk
+Ignore = target.mk
 
 -include makestuff/perl.def
 
@@ -35,7 +36,7 @@ tilde: dir=~
 tilde:
 	$(linkdirname)
 
-Ignore += run
+Ignore += run/*.*
 Sources += run/Makefile
 run:
 	$(mkdir)
