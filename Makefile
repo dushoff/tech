@@ -40,6 +40,8 @@ Sources += run/Makefile
 run:
 	$(mkdir)
 
+Sources += rpkgDescription
+
 ######################################################################
 
 ### Makestuff
