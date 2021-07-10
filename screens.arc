@@ -13,6 +13,8 @@ XX. dictClean: https://github.com/dushoff/dictClean.git
 
 texdev: https://github.com/dushoff/texdeps.git
 
+makeR: https://github.com/dushoff/makeR.git
+
 This was probably wrong; should have installed a .deb instead from the main DIGImend
 DIGImend: https://github.com/Huion-Linux/DIGImend-kernel-drivers-for-Huion.git
 
