@@ -9,6 +9,8 @@ XX. shellpipes: https://github.com/dushoff/shellpipes.git
 
 XX. dictClean: https://github.com/dushoff/dictClean.git
 
+XX. rRlinks: https://github.com/mac-theobio/rRlinks.git
+
 ----------------------------------------------------------------------
 
 texdev: https://github.com/dushoff/texdeps.git
