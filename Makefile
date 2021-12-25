@@ -20,7 +20,7 @@ tim_session:
 screen_session: screens.update
 	$(MAKE) $(vscreens)
 	$(MAKE) tilde.rscreen
-	screen -t sudo sudo su
+	screen -t sudo sudo su ##
 	screen tcsh
 	$(MAKE) run.rscreen
 	screen -t vanilla bash -cl vanilla
