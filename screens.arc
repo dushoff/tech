@@ -11,6 +11,8 @@ XX. dictClean: https://github.com/dushoff/dictClean.git
 
 XX. rRlinks: https://github.com/mac-theobio/rRlinks.git
 
+XX. stuff: https://github.com/dushoff/stuff.git
+
 ----------------------------------------------------------------------
 
 texdev: https://github.com/dushoff/texdeps.git
