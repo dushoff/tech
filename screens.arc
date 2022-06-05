@@ -5,17 +5,6 @@ XX. linux_setup: https://github.com/dushoff/linux_setup.git
 
 XX. rinst: https://github.com/dushoff/rinst.git
 
-XX. makestuff: https://github.com/dushoff/makestuff.git
-
-XX. shellpipes: https://github.com/dushoff/shellpipes.git
-
-XX. dictClean: https://github.com/dushoff/dictClean.git
-
-XX. rRlinks: https://github.com/mac-theobio/rRlinks.git
-
-XX. stuff: https://github.com/dushoff/stuff.git
-
-
 ----------------------------------------------------------------------
 
 texdev: https://github.com/dushoff/texdeps.git
