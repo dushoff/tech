@@ -5,6 +5,8 @@ XX. linux_setup: https://github.com/dushoff/linux_setup.git
 
 XX. rinst: https://github.com/dushoff/rinst.git
 
+XX. chinese: https://github.com/dushoff/chinese.git
+
 
 ----------------------------------------------------------------------
 
