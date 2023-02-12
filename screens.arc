@@ -7,7 +7,6 @@ XX. rinst: https://github.com/dushoff/rinst.git
 
 XX. chinese: https://github.com/dushoff/chinese.git
 
-
 ----------------------------------------------------------------------
 
 ## Delete these (with the folders) after a while I guess 2022 Jun 05 (Sun)
