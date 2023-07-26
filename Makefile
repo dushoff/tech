@@ -18,16 +18,11 @@ tim_session:
 	## exec vim Makefile target.mk "screens.list" &
 
 screen_session: screens.update
-	$(MAKE) $(vscreens)
-	$(MAKE) tilde.rscreen
-	screen -t sudo sudo su ##
-	screen tcsh
-	$(MAKE) run.rscreen
-	screen -t vanilla bash -cl vanilla
+	$(MAKE) $(newscreens)
 
-Dropbox: dir=~
-Dropbox: 
-	$(linkdir)
+## Cleaning 2023 Jul 26 (Wed)
+cleanDirs:
+	rm -fr dictClean/ rRlinks/ shellpipes/ stuff/
 
 ######################################################################
 
