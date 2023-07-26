@@ -31,11 +31,6 @@ tilde: dir=~
 tilde:
 	$(linkdirname)
 
-Ignore += run/*.*
-Sources += run/Makefile
-run:
-	$(mkdir)
-
 Sources += rpkgDescription
 
 ######################################################################
