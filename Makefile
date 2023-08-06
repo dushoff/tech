@@ -18,7 +18,7 @@ tim_session:
 	## exec vim Makefile target.mk "screens.list" &
 
 screen_session: screens.update
-	$(MAKE) $(newscreens)
+	$(MAKE) $(vscreens)
 
 ## Cleaning 2023 Jul 26 (Wed)
 cleanDirs:
