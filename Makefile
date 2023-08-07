@@ -26,6 +26,11 @@ cleanDirs:
 
 ######################################################################
 
+Makefile: inc
+inc: dir=~/screens/org/Planning
+inc:
+	$(linkdir)
+
 Ignore += tilde
 tilde: dir=~
 tilde:
