@@ -26,6 +26,7 @@ cleanDirs:
 
 ######################################################################
 
+Ignore += inc
 Makefile: inc
 inc: dir=~/screens/org/Planning
 inc:
