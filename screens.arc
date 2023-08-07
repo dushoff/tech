@@ -9,6 +9,8 @@ XX. chinese: https://github.com/dushoff/chinese.git
 
 XX. run: 
 
+XX. wakey: 
+
 ----------------------------------------------------------------------
 
 This was probably wrong; should have installed a .deb instead from the main DIGImend
