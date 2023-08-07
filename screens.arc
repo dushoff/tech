@@ -9,17 +9,9 @@ XX. chinese: https://github.com/dushoff/chinese.git
 
 XX. run: 
 
-XX. wakey: 
-
 ----------------------------------------------------------------------
 
 This was probably wrong; should have installed a .deb instead from the main DIGImend
 DIGImend: https://github.com/Huion-Linux/DIGImend-kernel-drivers-for-Huion.git
 
 rmview: https://github.com/bordaigorl/rmview.git
-
-tilde.rscreen
-screen -t sudo sudo su ##
-screen tcsh
-run.rscreen
-screen -t vanilla bash -cl vanilla
