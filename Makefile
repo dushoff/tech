@@ -26,6 +26,12 @@ cleanDirs:
 
 ######################################################################
 
+## Non-repo subdirectories managed from here
+
+Sources += run/Makefile wakey/Makefile
+
+######################################################################
+
 Ignore += inc
 Makefile: inc
 inc: dir=~/screens/org/Planning
