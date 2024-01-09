@@ -1,5 +1,4 @@
-## This is the screendir tech
-## vimcleaning
+## This is the screendir /home/dushoff/screens/tech
 
 current: target
 -include target.mk
@@ -32,16 +31,27 @@ Sources += run/Makefile wakey/Makefile
 
 ######################################################################
 
-Ignore += inc
-Makefile: inc
+linkdirs += inc 
 inc: dir=~/screens/org/Planning
-inc:
+
+linkdirs += email 
+email: dir=~/screens/org/Planning
+
+nlinkdirs += tilde
+tilde: dir=~
+
+$(linkdirs):
 	$(linkdir)
 
-Ignore += tilde
-tilde: dir=~
-tilde:
+$(nlinkdirs):
 	$(linkdirname)
+
+Makefile: | $(linkdirs) $(nlinkdirs)
+Ignore += $(linkdirs) $(nlinkdirs)
+
+######################################################################
+
+## tf??
 
 Sources += rpkgDescription
 
