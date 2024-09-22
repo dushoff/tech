@@ -11,7 +11,7 @@ XX. run:
 
 XX. wakey:
 
-## Probably don't want this
+## Probably don't need this; part of learning how to build repos
 empty: https://github.com/dushoff/empty.git
 
 ----------------------------------------------------------------------
