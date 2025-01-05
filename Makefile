@@ -27,7 +27,9 @@ cleanDirs:
 
 ## Non-repo subdirectories managed from here
 
-Sources += run/Makefile wakey/Makefile
+rundirs += run wakey ghost
+
+Sources += $(rundirs:%=%/Makefile)
 
 ######################################################################
 

@@ -11,6 +11,8 @@ XX. run:
 
 XX. wakey:
 
+XX. ghost:
+
 ## Probably don't need this; part of learning how to build repos
 empty: https://github.com/dushoff/empty.git
 
