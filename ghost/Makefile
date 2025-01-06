@@ -1,5 +1,5 @@
 runscreen: 
-	bash "source ~/screens/tech/linux_setup/venv/bin/activate && nvim"
+	bash -cl vnvim Makefile
 
 Sources += Makefile
 Makefile: makestuff/Makefile
