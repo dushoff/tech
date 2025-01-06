@@ -9,8 +9,6 @@ XX. chinese: https://github.com/dushoff/chinese.git
 
 XX. run: 
 
-XX. wakey:
-
 XX. ghost:
 
 ## Probably don't need this; part of learning how to build repos
