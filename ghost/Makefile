@@ -3,7 +3,12 @@ runscreen:
 
 Sources += Makefile
 
-Makefile: makestuff/Makefile
+Makefile: makestuff/Makefile inc
+target: ;
+
+inc: dir = ~/screens/org/Planning
+inc:
+	$(linkdir)
 
 makestuff/Makefile:
 	/bin/ln -s ../makestuff .
