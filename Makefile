@@ -27,7 +27,7 @@ cleanDirs:
 
 ## Non-repo subdirectories managed from here
 
-rundirs += run wakey ghost
+rundirs += run wakey ghost alpine
 
 Sources += $(rundirs:%=%/Makefile)
 

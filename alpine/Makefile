@@ -1,7 +1,7 @@
 runscreen: 
-	bash -cl vnvim Makefile scratch.md
+	exec alpine
 
-Sources += Makefile scratch.md
+Sources += Makefile 
 
 Makefile: makestuff/Makefile inc
 target: ;
