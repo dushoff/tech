@@ -9,14 +9,16 @@ XX. chinese: https://github.com/dushoff/chinese.git
 
 XX. run: 
 
-XX. alpine:
-
 XX. ghost:
 
 ## Probably don't need this; part of learning how to build repos
 empty: https://github.com/dushoff/empty.git
 
 ----------------------------------------------------------------------
+
+## Chose alpine only because it has some sort of oauth helper, but still didn't work well in the end (something expired or was invalidated and I couldn't be bothered). Revisit oauth some day?
+There are some settings here worth saving if you go back to alpine (maybe only on SiX, no big deal if lost).
+alpine:
 
 This was probably wrong; should have installed a .deb instead from the main DIGImend
 DIGImend: https://github.com/Huion-Linux/DIGImend-kernel-drivers-for-Huion.git
