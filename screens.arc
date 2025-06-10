@@ -9,7 +9,8 @@ XX. chinese: https://github.com/dushoff/chinese.git
 
 XX. run: 
 
-XX. ghost:
+## 6. ghost:
+## Not very smooth, and sometimes just eats the file!
 
 ## Probably don't need this; part of learning how to build repos
 empty: https://github.com/dushoff/empty.git
