@@ -1,5 +1,5 @@
 runscreen: 
-	bash -cl "vnvim Makefile scratch.md"
+	bash -ic "vnvim Makefile scratch.md"
 
 Sources += Makefile scratch.md
 

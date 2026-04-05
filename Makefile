@@ -9,11 +9,11 @@ Ignore = target.mk
 ######################################################################
 
 vim_session: 
-	bash -cl "vmt screens.list"
+	bash -ic "vmt screens.list"
 
 ## None of this seems to work
 tim_session: 
-	bash -cl "vim Makefile target.mk screens.list" &
+	bash -ic "vim Makefile target.mk screens.list" &
 	## exec vim Makefile target.mk "screens.list" &
 
 screen_session: screens.update
